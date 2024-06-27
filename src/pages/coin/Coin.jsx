@@ -13,7 +13,7 @@ const Coin = () => {
       method: "GET",
       headers: {
         accept: "application/json",
-        "x-cg-demo-api-key": "CG-htsLScMjACPqG2P5qeM3Twkx",
+        "x-cg-demo-api-key": "YOUR_API_KEY",
       },
     };
     fetch(`https://api.coingecko.com/api/v3/coins/${coinId}`, options)
@@ -26,7 +26,7 @@ const Coin = () => {
       method: "GET",
       headers: {
         accept: "application/json",
-        // "x-cg-pro-api-key": "CG-htsLScMjACPqG2P5qeM3Twkx",
+        // "x-cg-pro-api-key": "YOUR_API_KEY",
       },
     };
 
